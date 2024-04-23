@@ -1,4 +1,4 @@
-def get_first_last_chars(s):
+def abc(s):
     if len(s) < 2:
         return ""
     else:
@@ -6,6 +6,6 @@ def get_first_last_chars(s):
 
 samples = ['w3resource', 'w3', ' w']
 for s in samples:
-    result = get_first_last_chars(s)
+    result = abc(s)
     print("Sample String:", s)
     print("Expected Result:", result)
