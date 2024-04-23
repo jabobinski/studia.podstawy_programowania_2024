@@ -1,4 +1,4 @@
-def replace_not_poor(input_string):
+def a(input_string):
     not_index = input_string.find('not')
     poor_index = input_string.find('poor')
 
@@ -9,6 +9,6 @@ def replace_not_poor(input_string):
 
 sample_strings = ['The lyrics is not that poor!', 'The lyrics is poor!']
 for string in sample_strings:
-    result = replace_not_poor(string)
+    result = a(string)
     print("Sample String:", string)
     print("Expected Result:", result)
